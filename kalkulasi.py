@@ -1,5 +1,5 @@
-def tambah():
-    pass
+def tambah(x, y):
+    return x + y
 def bagi(x, y):
     hasil = x / y
 
@@ -15,3 +15,5 @@ b = 3
 print("Hasil bagi : ", bagi(a, b))
 print("Hasil kurang :", kurang(a, b) )
 print("Hasil kali : ", kali(a, b))
+print("Hasil tambah : ", tambah(a, b))
+
